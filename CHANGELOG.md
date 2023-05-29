@@ -1,3 +1,11 @@
+# 1.12.0
+
+* Feature: When receiving a voice-call, a message is displayed (voice calls are not supported).
+* Feature: When receiving a vote, a message is displayed (votes are not supported).
+* Change: Textual QR-code now contains <br> tags.
+* Change: IRC-style commands now start with ? to avoid confusion with actual commands.
+* Change: The connection is marked as "connected" only after fetching contacts (for Spectrum).
+
 # 1.11.1
 
 * Bugfix: /versions now actually prints version information.
